@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,600&display=swap');
+
+body {
+   background-color: #37414d;
+}
+
+h1 {
+   font-size: 40px;
+}
+
+.container {
+   color: white;
+}
+
+.header {
+   background-color: #424d5a;
+   max-width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   font-family: 'Source Sans Pro', sans-serif;
+   padding: 20px;
+   height: 10px;
+}
+
+.newEmployee {
+   background-color: #1DA1F2;
+   color: white;
+   border: none;
+   padding: 6.5px;
+   position: relative;
+   font-family: 'Lato', sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+   border-radius: 10px;
+   width: 5%;
+   margin-left: -90%;
+   margin-bottom: auto;
+   margin-top: auto;
+   cursor: pointer;
+}
+
+.clockIn, .clockOut, .editUsers, .statistics {
+   color: #8d9ca8;
+   font-size: 30px;
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+}
+
+
+
+.clockIn:hover, .clockOut:hover, .editUsers:hover, .statistics:hover {
+   transition: 0.35s;
+   border-bottom: solid 3px #418e94;
+   background-color: white;
+   color: black;
+   opacity: 1;
+   border-radius: 10px;
+
+}
+
+.clockIn:active, .clockOut:active, .editUsers:active, .statistics:active{
+   opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+.sidelist {
+   width: 30%;
+   height: 650px;
+   background-color: #333;
+   display: grid;
+}
+
+
+
+
+
+
+
+
+
+
